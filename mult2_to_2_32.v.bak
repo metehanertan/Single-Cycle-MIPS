@@ -1,0 +1,11 @@
+module mult2_to_1_5(out, i0,i1,i2,i3,s0);
+output [31:0] out;
+input [31:0]i0,i1,i2,i3;
+input [1:0]s0;
+
+if ((~s0[1])&(~s0[0])) assign out = i0; //00
+if ((~s0[1])&(s0[0])) assign out = i1;  //01
+if ((s0[1])&(~s0[0])) assign out = i2;  //10
+if ((s0[1])&(s0[0])) assign out = i3;  //11
+
+endmodule

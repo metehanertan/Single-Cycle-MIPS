@@ -1,0 +1,88 @@
+{D:/1 CSE/School/Modelsim/examples/Hoca/andGate.v} {1 {vlog -work work -stats=none {D:\1 CSE\School\Modelsim\examples\Hoca\andGate.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module andGate
+
+Top level modules:
+	andGate
+
+} {} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/processor.v} {0 {vlog -work work -stats=none {D:\1 CSE\School\Modelsim\examples\Hoca\processor.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module processor
+** Error: (vlog-13069) D:\1 CSE\School\Modelsim\examples\Hoca\processor.v(11): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+
+** Error: (vlog-13069) D:\1 CSE\School\Modelsim\examples\Hoca\processor.v(41): near "mux1in": syntax error, unexpected IDENTIFIER, expecting ';'.
+
+** Error: D:\1 CSE\School\Modelsim\examples\Hoca\processor.v(53): (vlog-2730) Undefined variable: 'memwrite'.
+
+** Error: D:\1 CSE\School\Modelsim\examples\Hoca\processor.v(56): (vlog-2730) Undefined variable: 'sum'.
+
+** Error: D:\1 CSE\School\Modelsim\examples\Hoca\processor.v(77): (vlog-2730) Undefined variable: 'regwrite'.
+
+** Error: D:\1 CSE\School\Modelsim\examples\Hoca\processor.v(87): (vlog-2730) Undefined variable: 'out4'.
+
+
+} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/adder.v} {1 {vlog -work work -stats=none {D:\1 CSE\School\Modelsim\examples\Hoca\adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/control.v} {1 {vlog -work work -stats=none {D:\1 CSE\School\Modelsim\examples\Hoca\control.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/alucont.v} {1 {vlog -work work -stats=none {D:/1 CSE/School/Modelsim/examples/Hoca/alucont.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alucont
+
+Top level modules:
+	alucont
+
+} {} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/signext.v} {1 {vlog -work work -stats=none {D:/1 CSE/School/Modelsim/examples/Hoca/signext.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/mult2_to_1_32.v} {1 {vlog -work work -stats=none {D:/1 CSE/School/Modelsim/examples/Hoca/mult2_to_1_32.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult2_to_1_32
+
+Top level modules:
+	mult2_to_1_32
+
+} {} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/alu32.v} {0 {vlog -work work -stats=none {D:\1 CSE\School\Modelsim\examples\Hoca\alu32.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu32
+** Error: (vlog-13069) D:\1 CSE\School\Modelsim\examples\Hoca\alu32.v(17): near "for": syntax error, unexpected for.
+
+** Error: (vlog-13069) D:\1 CSE\School\Modelsim\examples\Hoca\alu32.v(17): near ")": syntax error, unexpected ')', expecting ';'.
+
+
+} {4.0 5.0 6.0 7.0} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/mult2_to_2_5.v} {0 {vlog -work work -stats=none {D:\1 CSE\School\Modelsim\examples\Hoca\mult2_to_2_5.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult2_to_2_5
+** Error: (vlog-13069) D:\1 CSE\School\Modelsim\examples\Hoca\mult2_to_2_5.v(14): near "end": syntax error, unexpected end, expecting ';'.
+
+
+} {4.0 5.0} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/mult2_to_2_32.v} {0 {vlog -work work -stats=none {D:\1 CSE\School\Modelsim\examples\Hoca\mult2_to_2_32.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult2_to_2_32
+** Error: (vlog-13069) D:\1 CSE\School\Modelsim\examples\Hoca\mult2_to_2_32.v(7): near "=": syntax error, unexpected '='.
+
+** Error: D:\1 CSE\School\Modelsim\examples\Hoca\mult2_to_2_32.v(7): (vlog-13205) Syntax error found in the scope following 'out'. Is there a missing '::'?
+
+
+} {4.0 5.0 6.0 7.0} {}} {D:/1 CSE/School/Modelsim/examples/Hoca/mult2_to_1_2.v} {1 {vlog -work work -stats=none {D:\1 CSE\School\Modelsim\examples\Hoca\mult2_to_1_2.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult2_to_1_32
+
+Top level modules:
+	mult2_to_1_32
+
+} {} {}}
